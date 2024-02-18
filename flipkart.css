@@ -1,0 +1,512 @@
+.navbar{
+    display:flex;
+    align-items:center;
+    height:70px;
+    width:100%;
+    /*background-color:#FFFFFF;*/
+    background-color:white;
+    position: fixed;
+    top:0;
+}
+*{
+    margin:0px;
+}
+body{
+    background-color:rgb(232, 232, 232);
+}
+
+.magi{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:50px;
+    height:45px;
+    background-color:rgb(237, 236, 236);
+    font-size:1.4rem;
+    border-top-left-radius:20%;
+    border-bottom-left-radius:20%;
+    margin-left:40px;
+}
+
+.navbar input{
+    font-size:1.3rem;
+    width:30%;
+    height:43px;
+    background-color:rgb(237, 236, 236);
+    margin-left:0px;
+    border:none;
+    outline:none;
+}
+
+.magi2{
+    width:40px;
+    height:45px;
+    background-color:rgb(237, 236, 236);
+    border-top-right-radius:20%;
+    border-bottom-right-radius:20%;
+}
+
+.user{
+    display:flex;
+    align-items:center;
+    height:40px;
+    width:100px;
+    font-size:1.3rem;
+    margin-left : 40px;
+    border-radius:10%;
+}
+
+.user i{
+    margin-left:4px;
+}
+
+.user select{
+    margin-left : 10px;
+    font-size:1.1rem;
+    height:40px;
+    border:none;
+    outline:none;
+    background-color: transparent;
+}
+
+.user:hover{
+    background-color: rgb(3, 3, 177);
+    color:white;
+}
+
+.user select:hover{
+    color:white;
+}
+
+.cart{
+    display:flex;
+    align-items:center;
+    margin-left:40px;
+    font-size:1.1rem;
+}
+
+.cart p{
+    margin-left:10px;
+}
+
+.seller{
+    display:flex;
+    margin-left:50px;
+    font-size:1.1rem;
+}
+
+.seller p{
+    margin-left:8px;
+}
+
+.bars{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-left:80px;
+    font-size:1.1rem;
+    height:40px;
+    width:40px;
+    border:1px solid transparent;
+    border-radius:10%;
+}
+
+.bars:hover{
+    border: 1px solid grey;;
+}
+
+.list{
+    width:97%;
+    height:150px;
+    background-color:#FFFFFF;
+    margin-left:21px;
+    margin-top:80px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    
+}
+
+.image{
+    height: 120px;
+    width : 110px;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1{
+    height: 80px;
+    width:90px;
+    background-image: url("grocery.webp");
+    background-size:cover;
+    margin-bottom:20px;
+}
+
+.image2{
+    height: 80px;
+    width:90px;
+    background-image: url("mobiles.webp");
+    background-size:cover;
+    margin-bottom:20px;
+}
+
+.image3{
+    height: 80px;
+    width:90px;
+    background-image: url("fashion.webp");
+    background-size:cover;
+    margin-bottom:20px;
+}
+
+.image4{
+    height: 80px;
+    width:90px;
+    background-image: url("laptop.webp");
+    background-size:cover;
+    margin-bottom:20px;
+}
+
+.image5{
+    height: 80px;
+    width:90px;
+    background-image: url("home.webp");
+    background-size:cover;
+    margin-bottom:20px;
+}
+
+.image6{
+    height: 80px;
+    width:90px;
+    background-image: url("tv.webp");
+    background-size:cover;
+    margin-bottom:20px;
+}
+
+.image7{
+    height: 80px;
+    width:90px;
+    background-image: url("travel.webp");
+    background-size:cover;
+    margin-bottom:20px;
+}
+
+.image8{
+    height: 80px;
+    width:90px;
+    background-image: url("teddy.webp");
+    background-size:cover;
+    margin-bottom:20px;
+}
+
+.image9{
+    height: 80px;
+    width:90px;
+    background-image: url("bikes.webp");
+    background-size:cover;
+    margin-bottom:20px;
+}
+
+.image p{
+    font-size: 1.3rem;
+}
+
+.list1{
+    width:97%;
+    height:200px;
+    background-color:#FFFFFF;
+    margin-top:15px;
+    margin-left:21px;
+    background-image: url("airplane.webp");
+}
+
+.list2{
+    width:80%;
+    height:250px;
+    background-color:#FFFFFF;
+    margin-top:15px;
+    margin-left:21px;
+}
+
+.list21{
+    width:13%;
+    height:250px;
+    background-color:#FFFFFF;
+    margin-top:15px;
+    margin-left:21px;
+    background-image: url("code.webp");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.s2{
+    display :flex;
+}
+.l2{
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.bl2{
+    height:180px;
+    width:170px;
+    border:1px solid grey;
+    margin-top:30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.list2{
+    font-size: 1.5rem;
+}
+
+.be{
+    margin-left:10px;
+    margin-top:5px;
+}
+
+.bl21{
+    height:120px;
+    width:130px;
+    background-image:url("download.jpg");
+    background-size:cover;
+}
+.bl22{
+    height:120px;
+    width:130px;
+    background-image:url("monitor.jpg");
+    background-size:cover;
+}
+.bl23{
+    height:120px;
+    width:130px;
+    background-image:url("OIP.jpg");
+    background-size:cover;
+}
+.bl24{
+    height:120px;
+    width:130px;
+    background-image:url("power.jpg");
+    background-size:cover;
+}
+.bl25{
+    height:120px;
+    width:130px;
+    background-image:url("shavers.jpg");
+    background-size:cover;
+}
+
+.txt{
+    margin-top:10px;
+}
+
+.list3{
+    width:96%;
+    height:250px;
+    background-color:#FFFFFF;
+    margin-top:15px;
+    margin-left:21px;
+    display: flex;
+    flex-direction: column;
+}
+
+.l3t{
+    font-size: 1.5rem;
+    margin-left:10px;
+    margin-top:5px;
+}
+.l3i{
+    height:200px;
+    width:160px;
+    margin-top:10px;
+    border:1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.sup{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.image31{
+        height:170px;
+        width:160px;
+        background-image: url("stationary.jpg");
+        background-size: contain;
+}
+
+.image32{
+    height:170px;
+    width:160px;
+    background-image: url("cycle2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image33{
+    height:170px;
+    width:160px;
+    background-image: url("action.jpg");
+    background-size: contain;
+}
+
+.image34{
+    height:170px;
+    width:160px;
+    background-image: url("tabla1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image35{
+    height:170px;
+    width:160px;
+    background-image: url("car.jpg");
+    background-size: cover;
+}
+
+.image36{
+    height:170px;
+    width:160px;
+    background-image: url("dumbells.jpg");
+    background-size: contain;
+}
+
+.tx3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.smart{
+    width:30%;
+    height:575px;
+    background-color:#FFFFFF;
+    margin-top:15px;
+    margin-left:21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lisimage1{
+    height:45%;
+    width:95%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.im11{
+    height:90%;
+    width:45%;
+    background-color:#FFFFFF;
+    border:1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.finimage{
+    height:90%;
+    width:100%;
+    background-image:url("jewl.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.finimage1{
+    height:90%;
+    width:100%;
+    background-image:url("head.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.finimage2{
+    height:90%;
+    width:100%;
+    background-image:url("cables2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.finimage3{
+    height:90%;
+    width:100%;
+    background-image:url("shoes.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.imagetext{
+    font-size:1.5rem;
+    margin-left:5px;
+}
+
+.smarttext{
+    font-size: 1.5rem;
+    margin-right:130px;
+}
+
+.smart1{
+    width:64%;
+    height:575px;
+    background-color:#FFFFFF;
+    margin-top:15px;
+    margin-left:21px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("sale1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.s1{
+    display:flex;
+}
+
+.list4{
+    width:100%;
+    height:350px;
+    background-color:rgb(42, 41, 41);
+    margin-top:15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main4{
+    height:70%;
+  color: white;
+  display: flex;
+  margin-top:30px;
+  justify-content: space-evenly;
+}
+
+.ver{
+    height:200px;
+    width:0px;
+    border:1px solid grey;
+    margin-left:10px;
+    margin-right:-10px
+}
+.main4 ul{
+    list-style-type:none;
+}
+
+.heading{
+    color:grey;
+}
+
+.main4 ul li{
+    margin-bottom:10px;
+}
